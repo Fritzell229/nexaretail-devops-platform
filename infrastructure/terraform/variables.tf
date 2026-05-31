@@ -13,13 +13,13 @@ variable "location" {
 variable "kubernetes_version" {
   description = "Version Kubernetes AKS"
   type        = string
-  default     = "1.28"
+  default     = "1.35.4"
 }
 
 variable "aks_node_count" {
   description = "Nombre de noeuds AKS"
   type        = number
-  default     = 3
+  default     = 2
 }
 
 variable "acr_name" {
